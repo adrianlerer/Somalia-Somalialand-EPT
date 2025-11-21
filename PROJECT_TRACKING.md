@@ -65,9 +65,10 @@
 - [x] Bibliography compilation (GENSPARK PROMPT 1) - **COMPLETE** ✅ (45 sources, Chicago 17th format)
 - [x] Tables/Figures specifications (GENSPARK PROMPT 2) - **COMPLETE** ✅ (3 mandatory items, 2 optional)
 - [x] Appendices specifications (GENSPARK PROMPT 3) - **COMPLETE** ✅ (3 appendices, 14-25 pages)
-- [ ] Event data analysis (Task 10) - **PENDING** (UCDP/ACLED extraction needed)
+- [x] Figures generation (Figure 1 Timeline + Figure 2 Scatterplots) - **COMPLETE** ✅ (4 files: PDF + PNG formats)
+- [ ] Event data analysis (Task 10) - **SKIPPED** (per user request)
 - [ ] Abstract (250 words) - **PENDING**
-- [ ] Figures/Tables creation (generate R/Python scripts) - **PENDING**
+- [ ] Tables creation (Table 1 CLI + Table 2 Outcomes) - **PENDING**
 
 **Chicago Format Validator**: ✅ **COMPLETE** (45 sources formatted)  
 **SAIJ Citation Checker**: N/A (no Argentine cases)  
@@ -82,6 +83,13 @@
 - ✅ PROMPT 1: Bibliography reduced to 45 essential sources (Tier 1-3 prioritization)
 - ✅ PROMPT 2: 3 mandatory tables/figures + 2 optional (CLI breakdown, outcomes summary, timeline)
 - ✅ PROMPT 3: 3 appendices specified (CLI methodology, events timeline, violence data)
+
+**FIGURES GENERATION COMPLETION** (November 21, 2025):
+- ✅ Figure 1: Timeline Visualization (1960-2024, 15 events marked, PDF 44KB + PNG 618KB)
+- ✅ Figure 2: CLI vs Outcomes Scatterplots (2 panels, r=±1.00, PDF 37KB + PNG 472KB)
+- ✅ Python scripts created (figure1_timeline.py, figure2_scatterplots.py)
+- ✅ Publication-ready captions (250 words Figure 1, 150 words Figure 2)
+- ✅ 300 DPI resolution, vector PDF + raster PNG formats
 
 ---
 
