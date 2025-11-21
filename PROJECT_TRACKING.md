@@ -60,9 +60,9 @@
 - [x] Literature review (Task 8) - **COMPLETE** ✅ (70 sources, 3,200 words)
 - [x] Violence statistics fact-check (Tactical PROMPT 2) - **COMPLETE** ✅ (15+ sources, 6,500 words)
 - [x] Constitutional events fact-check (Tactical PROMPT 1) - **COMPLETE** ✅ (45+ sources, 6,500 words)
-- [ ] Expert reports integration (Task 9) - **IN PROGRESS**
-- [ ] Event data analysis (Task 10) - **IN PROGRESS** (UCDP/ACLED extraction needed)
-- [ ] Control variables data (Tactical PROMPT 3) - **PENDING DAY 3**
+- [x] Control variables data (Tactical PROMPT 3) - **COMPLETE** ✅ (15+ sources, 7,200 words)
+- [ ] Expert reports integration (Task 9) - **PENDING**
+- [ ] Event data analysis (Task 10) - **PENDING** (UCDP/ACLED extraction needed)
 - [ ] Full methodology appendix - **PENDING**
 - [ ] Bibliography (Chicago 17th format) - **PENDING**
 - [ ] Abstract (250 words) - **PENDING**
@@ -74,8 +74,8 @@
 
 **Decision Point**: PUBLISH / HOLD  
 **Expected Timeline**: Week 3-4  
-**Current Word Count**: **34,800 words** (25,100 prior + 3,200 Task 8 + 6,500 fact-check)  
-**Progress**: 99% to minimum 35,000-word target 🎯
+**Current Word Count**: **42,000 words** (25,100 prior + 3,200 Task 8 + 6,500 fact-check + 7,200 control vars)  
+**Progress**: 120% to minimum 35,000-word target 🎯 **EXCEEDED TARGET**
 
 ---
 
@@ -121,20 +121,42 @@
 
 ---
 
-### PROMPT 3: Control Variables Data ⏳ PENDING DAY 3
-**Date**: TBD  
-**Status**: ⏳ **PENDING**  
-**Target Output**: `docs/TASK_CONTROL_VARIABLES_EXTENDED.md`
+### PROMPT 3: Control Variables Data ✅ COMPLETE
+**Date**: 2025-11-21  
+**Status**: ✅ **COMPLETE**  
+**Output**: `docs/TASK_CONTROL_VARIABLES.md` (7,200 words)
 
-**Data to Collect** (2015-2024):
-- GDP per capita (World Bank, IMF)
-- Aid received (OECD DAC, World Bank)
-- Remittances (World Bank, Somali Central Bank)
-- Foreign Direct Investment (UNCTAD)
-- Population estimates (UN Population Division)
-- Urban vs rural breakdown (World Urbanization Prospects)
+**Data Sources Verified**:
+- Somalia National Bureau of Statistics (SNBS) GDP Report 2023
+- World Bank indicators (GDP, ODA, remittances, population, FDI)
+- IMF Somalia Article IV Consultation 2024
+- Somalia Ministry of Finance Budget Reports
+- FRED, Macrotrends, UNCTAD, UNDP
 
-**Somalilandia Challenge**: Data bundled with Somalia Federal in most international databases (requires manual disaggregation or use of Somalilandia government sources)
+**Economic Variables (Somalia Federal - HIGH QUALITY)**:
+- GDP per capita: $572 (2018) → $695 (2023) → $637 est. (2024)
+- GDP total: $7.87B (2018) → $10.97B (2023) → $12.11B est. (2024)
+- Population: 13.76M (2018) → 19.01M (2024) - major revision/rebase
+- Remittances: $1.73B-$2.0B annually (23-28% of GDP)
+- FDI inflows: $601M (2021) → $676.5M (2023) → $765M est. (2024)
+
+**Somalilandia Data Gaps (SYSTEMATIC BUNDLING)**:
+- GDP: Wikipedia estimate $4.28B (NOT verified, LOW quality)
+- Population: Wikipedia ~6.2M (NO census since 1975)
+- Remittances, aid, FDI: ALL BUNDLED with Somalia
+- Port revenue: Berbera (DP World) and Mogadishu (Albayrak) NOT public
+
+**Recognition Penalty Assessment (200 words)**:
+- Systematic bundling creates severe measurement error
+- Endogeneity concerns (aid/FDI attribution)
+- Attenuation of CLI-governance correlation
+- Methodological limitation disclosed for Section 6
+
+**Recommended Approach for Section 6**:
+- Transparent disclosure of bundling limitation
+- Somalia Federal controls as upper bound estimates
+- Sensitivity analysis (4 models)
+- Qualitative triangulation with expert reports
 
 ---
 
