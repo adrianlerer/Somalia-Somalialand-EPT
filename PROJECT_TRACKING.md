@@ -58,8 +58,11 @@
 
 **Required Deliverables**:
 - [x] Literature review (Task 8) - **COMPLETE** ✅ (70 sources, 3,200 words)
+- [x] Violence statistics fact-check (Tactical PROMPT 2) - **COMPLETE** ✅ (15+ sources, 6,500 words)
+- [x] Constitutional events fact-check (Tactical PROMPT 1) - **COMPLETE** ✅ (45+ sources, 6,500 words)
 - [ ] Expert reports integration (Task 9) - **IN PROGRESS**
-- [ ] Event data analysis (Task 10) - **PENDING**
+- [ ] Event data analysis (Task 10) - **IN PROGRESS** (UCDP/ACLED extraction needed)
+- [ ] Control variables data (Tactical PROMPT 3) - **PENDING DAY 3**
 - [ ] Full methodology appendix - **PENDING**
 - [ ] Bibliography (Chicago 17th format) - **PENDING**
 - [ ] Abstract (250 words) - **PENDING**
@@ -71,8 +74,67 @@
 
 **Decision Point**: PUBLISH / HOLD  
 **Expected Timeline**: Week 3-4  
-**Current Word Count**: **28,300 words** (25,100 prior + 3,200 Task 8)  
-**Progress**: 81% to minimum 35,000-word target
+**Current Word Count**: **34,800 words** (25,100 prior + 3,200 Task 8 + 6,500 fact-check)  
+**Progress**: 99% to minimum 35,000-word target 🎯
+
+---
+
+## 🚀 Tactical Prompts (Checkpoint 3 Execution)
+
+### PROMPT 1: Constitutional Events Fact-Check ✅ COMPLETE
+**Date**: 2025-11-21  
+**Status**: ✅ **COMPLETE**  
+**Output**: `docs/TASK_FACTCHECK_CONSTITUTIONAL_EVENTS.md` (6,500 words)
+
+**Verification Results**:
+- 15 constitutional claims fact-checked with 2-3 sources each
+- 45+ sources consulted (UN, government, major news outlets)
+- 93.3% verification rate (14/15 verified HIGH confidence)
+- 2 minor discrepancies documented (date variances, parliamentary delay calculation)
+
+**Key Verifications**:
+- Somalia Provisional Constitution Aug 1, 2012: ✅ VERIFIED (4 sources)
+- Farmajo extension April 12, 2021: ✅ VERIFIED (5 sources)
+- Somalilandia Referendum May 31, 2001 (97.1%/99.9%): ✅ VERIFIED (3 sources)
+- Irro victory November 13, 2024: ✅ VERIFIED (6 sources)
+
+---
+
+### PROMPT 2: Violence Statistics Cross-Check ✅ COMPLETE
+**Date**: 2025-11-21  
+**Status**: ✅ **COMPLETE**  
+**Output**: `docs/TASK_VIOLENCE_STATISTICS.md` (6,500 words)
+
+**Data Sources Verified**:
+- UCDP: 3,847 battle deaths Somalia 2023 (World Bank indicator)
+- ACLED: 3,850 fatalities Aug-Dec 2022 (1,200+ events)
+- UNOCHA: Humanitarian reports 2015-2024
+
+**Major Incidents Verified**:
+- Mogadishu truck bombing Oct 14, 2017: **512 deaths** ✅ HIGH confidence (Reuters, CNN, MPR)
+- Las Anod conflict Feb 2023-ongoing: **299-343 deaths** ⚠️ MEDIUM confidence (Al Jazeera, Wikipedia)
+- Aug-Dec 2022 surge: **3,850 fatalities** ✅ HIGH confidence (ACLED)
+
+**Data Quality**: MODERATE (Somalilandia bundling issue, UCDP/ACLED methodological differences documented)
+
+**Next Steps**: Extract full UCDP 2015-2023 dataset, ACLED manual filtering for Somalilandia events
+
+---
+
+### PROMPT 3: Control Variables Data ⏳ PENDING DAY 3
+**Date**: TBD  
+**Status**: ⏳ **PENDING**  
+**Target Output**: `docs/TASK_CONTROL_VARIABLES_EXTENDED.md`
+
+**Data to Collect** (2015-2024):
+- GDP per capita (World Bank, IMF)
+- Aid received (OECD DAC, World Bank)
+- Remittances (World Bank, Somali Central Bank)
+- Foreign Direct Investment (UNCTAD)
+- Population estimates (UN Population Division)
+- Urban vs rural breakdown (World Urbanization Prospects)
+
+**Somalilandia Challenge**: Data bundled with Somalia Federal in most international databases (requires manual disaggregation or use of Somalilandia government sources)
 
 ---
 
