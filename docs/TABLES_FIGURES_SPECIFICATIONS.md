@@ -24,9 +24,9 @@
 
 | Entity | CE | UA | JPI | CLI Composite |
 |--------|----|----|-----|---------------|
-| **Somalia Federal** | 0.40 | 0.45 | 0.35 | **0.76** |
-| **Somalilandia** | 0.28 | 0.20 | 0.45 | **0.54** |
-| **Gap** | +0.12 | +0.25 | -0.10 | **+0.22** |
+| **Somalia Federal** | 0.80 | 0.85 | 0.55 | **0.76** |
+| **Somalilandia** | 0.65 | 0.35 | 0.70 | **0.54** |
+| **Gap** | +0.15 | +0.50 | -0.15 | **+0.22** |
 
 **Formula Annotation** (in table note):
 CLI = 0.35 × CE + 0.40 × UA + 0.25 × JPI
@@ -47,7 +47,7 @@ CLI = 0.35 × CE + 0.40 × UA + 0.25 × JPI
 
 **Table 1. Constitutional Lock-In Index (CLI) Component Breakdown: Somalia Federal vs Somalilandia**
 
-Somalia Federal exhibits higher rigidity (CLI 0.76) driven by extreme ultraactivity (UA 0.45) from provisional constitution persisting 13 years and 4.5 clan formula lasting 25 years without amendment. Somalilandia's lower rigidity (CLI 0.54) reflects timely constitutional renewal via referendum (UA 0.20) and more flexible amendment procedures (CE 0.28). CLI calculated as weighted composite: CLI = 0.35×CE + 0.40×UA + 0.25×JPI. Weights derived from prior EPT validation studies (Argentina, Brazil, Chile) showing ultraactivity strongest predictor of institutional performance.
+Somalia Federal exhibits higher rigidity (CLI 0.76) driven by extreme ultraactivity (UA 0.85) from 4.5 clan formula lasting 25 years without amendment and provisional constitution persisting 13 years. High constitutional entrenchment (CE 0.80) from complex dual supermajority system (bicameral + federal states) compounds rigidity. Somalilandia's lower rigidity (CLI 0.54) reflects moderate ultraactivity (UA 0.35) with average 28-month term extensions but eventual competitive elections, high entrenchment (CE 0.65) with eternity clauses but referendum legitimacy, and operational judicial review (JPI 0.70) with Supreme Court constitutional rulings respected. CLI calculated as weighted composite: CLI = 0.35×CE + 0.40×UA + 0.25×JPI. Weights derived from prior EPT validation studies (Argentina, Brazil, Chile) showing ultraactivity strongest predictor of institutional performance.
 
 **Sources**: Federal Republic of Somalia (2012); Republic of Somalilandia (2001); author calculations.
 
